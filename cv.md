@@ -20,4 +20,5 @@ I am a very motivated person and I am sure that I will be useful to work in your
 - HTML5, CSS3
 - JavaScript (beginning)
 - Git, GitHub
+- VS Code
 ```
