@@ -31,4 +31,17 @@ function bmi(weight, height) {
   return bmi <= 18.5 ? 'Underweight': bmi <= 25 ? 'Normal': bmi <= 30 ? 'Overweight': 'Obese';
 }
 ```
+### Education
+
+- Higher medical education 
+- Course on YouTube "Basics of HTML and CSS for beginners" (16 hours)
+- Begginer JavaScript course (in process) 
+
+### Languages:
+
+Ukraine - native\
+Russian - advance\
+English - intermediate\
+Polish - begginer
+
 
