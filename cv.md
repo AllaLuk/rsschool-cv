@@ -22,3 +22,13 @@ I am a very motivated person and I am sure that I will be useful to work in your
 - Git, GitHub
 - VS Code
 ```
+#### Code example
+```
+function bmi(weight, height) {
+
+  const bmi = weight/(height*height);
+  
+  return bmi <= 18.5 ? 'Underweight': bmi <= 25 ? 'Normal': bmi <= 30 ? 'Overweight': 'Obese';
+}
+```
+
