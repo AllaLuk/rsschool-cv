@@ -100,6 +100,10 @@ a {
   letter-spacing: 2px;
 }
 
+.section-projects a {
+  text-decoration: underline;
+}
+
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -114,9 +118,48 @@ a {
   font-weight: 600;
 }
 
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+  width: 100%;
+}
+
 .profile-photo {
   width: 250px;
-  height: auto; 
+  height: auto;
   border-radius: 50%;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  background-color: rgb(106, 106, 207);
+}
+
+.footer-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.rs-school-logo {
+  width: 120px;
+  height: 60px;
 }
